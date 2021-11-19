@@ -4,8 +4,10 @@
 
 body {
   margin: 0;
-  padding-bottom: 200px;
-  font-family: 'Roboto', sans-serif;
+  padding-bottom: 100px;
+  font-family: 'Lobster', cursive;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
 iframe {
@@ -22,6 +24,7 @@ h1 {
 
 h2 {
   font-size: 35px;
+  font-family: 'Lobster', cursive;
 }
 
 .container {
@@ -33,10 +36,10 @@ h2 {
 }
 
 .dark-bg {
-  background: rgb(129, 129, 129);
+  /* background: rgb(129, 129, 129); */
   padding-top: 30px;
   padding-bottom: 30px;
-  color: white;
+  color: black;
 }
 
 .light-bg {
