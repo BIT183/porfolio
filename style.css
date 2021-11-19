@@ -28,11 +28,12 @@ h2 {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 80%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1%;
+  padding-left: 1%;
+  height: 80vh;
 }
 
 .dark-bg {
@@ -51,11 +52,12 @@ h2 {
 .section-title {
   text-align: center;
   text-transform: uppercase;
+  color: #705bd9;
 }
 
 .button {
-  background: green;
-  color: white;
+  background: #705bd9;
+  color: #705bd9;
   border: none;
   border-radius: 5px;
   padding-top: 10px;
@@ -70,8 +72,8 @@ h2 {
 
 .button.outline {
   background: unset;
-  color: green;
-  border: 1px solid green;
+  color: #705bd9;
+  border: 1px solid #705bd9;
 }
 
 .button:hover {
@@ -80,8 +82,8 @@ h2 {
 }
 
 .button.outline:hover {
-  background: green;
-  color: white;
+  background: #705bd9;
+  color: #705bd9;
   box-shadow: none;
 }
 
@@ -94,7 +96,7 @@ div.hero-box {
   display: grid;
   place-items: center;
   padding: 50px;
-  color: white;
+  color: #705bd9;
   text-align: center;
 }
 
@@ -169,8 +171,8 @@ div.card .button {
 
 div.image-card {
   width: 24%;
-  height: 250px;
-  border-radius: 5px;
+  height: 400px;
+  border-radius: 5%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -184,14 +186,14 @@ div.image-card .button {
   margin-top: 50px;
   opacity: 0;
   transition: all 0.3s;
-  color: white;
-  border-color: white;
+  color: #705bd9;
+  border-color: #705bd9;
 }
 
 div.image-card .button:hover {
-  color: green;
+  color: white;
   border-color: white;
-  background: white;
+  background: #705bd9;
 }
 
 div.image-card:hover .button {
@@ -200,8 +202,7 @@ div.image-card:hover .button {
 
 div.image-card .content-title {
   font-size: 20px;
-  color: white;
-}
+  color: #705bd9;
 
 .content-section {
   display: flex;
