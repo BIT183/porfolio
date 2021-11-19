@@ -261,8 +261,7 @@ div.image-card .content-title {
 }
 
 .content-section-3 .content ol,
-.content-section-4 .content ol/*,
- .content-section-5 .content ol*/ { 
+.content-section-4 .content ol{ 
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
